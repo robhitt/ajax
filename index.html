@@ -14,27 +14,33 @@
 
     <nav style="background:green">
       <div class="nav-wrapper" style="margin-left:20px;">
-
-        <a href="#" class="brand-logo">Spotify Song Lister</a>
+        <img src="http://i65.tinypic.com/309ox12.png" valign="middle" height="50" width="50">
+        <a href="#" class="brand-logo"> Spotify Album List</a>
 
       </div>
     </nav>
 
     <div class="container">
 
+      <center>
+      <div id=hero-image>
+        <img src="http://i64.tinypic.com/2daiqz8.png">
+      </div>
+    </center>
+
       <div class="row">
-        <div class="col s5">
+        <div class="col s4">
           <h4>Enter Artist Name:</h4>
 
-          <form id='song-form'>
+          <form id='album-form'>
             <input type="text" id="query" value="">
-            <input type="submit" name="" value="Search For Songs">
+            <input type="submit" name="" value="Search For Albums">
           </form>
         </div>
 
-        <div class="col s7">
-          <h4>Artist Songs:</h4>
-          <ul id="songs" class='collection js--song-list'>
+        <div class="col s8">
+          <h4><div style="display:inline" id="js--artist-name"> </div> Albums</h4>
+          <ul id="albums" class='collection js--album-list'>
 
           </ul>
         </div>
@@ -42,5 +48,12 @@
 
 
     </div>
+
+      <footer class="page-footer" id="myFooter" style="background:green; vertical-align:middle;">
+        <div style="color:white; vertical-align:middle;">
+        Copyright Rob & Jenny 2017
+      </div>
+      </footer>
+
   </body>
 </html>
